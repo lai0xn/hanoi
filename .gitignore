@@ -1,0 +1,48 @@
+# --- Build Artifacts ---
+# Object files
+*.o
+*.obj
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Static and Dynamic Libraries
+*.a
+*.dylib
+*.so
+*.dll
+
+# --- Directories ---
+# Ignore the build directories we created
+obj/
+bin/
+build/
+
+# --- Project Specific Output ---
+# Ignore the benchmark results CSV so it doesn't clutter git
+*.csv
+hanoi_results.csv
+
+# --- System Files ---
+# macOS clutter
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows clutter (just in case)
+Thumbs.db
+ehthumbs.db
+
+# --- IDE & Editor Files ---
+# VS Code
+.vscode/
+
+# Vim
+*.swp
+*.swo
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
