@@ -6,8 +6,6 @@ A high-performance C++ application that visualizes the Towers of Hanoi algorithm
 
 ![Project Screenshot](demo/demo.png)
 
-*(To add a demo: Take a screenshot of the running application, rename it to `screenshot.png`, and place it inside the `demo/` folder in your project root.)*
-
 ## 🚀 Features
 
 * **Interactive Visualization:**
